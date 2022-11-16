@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+
+.container-fluid{
+	margin-top: 1%;
+}
+.card {
+
+
+	background-color: #162447;
+	border-radius: 50px;
+	color: #6f707d;
+	font-family: 'Marcellus', serif;
+}
+
+#heading{
+	font-size: 55px; 
+	color: ghostwhite;   
+	
+}
+
+.temp{
+	place-items: center;
+}
+
+.temp-details > p >span, .grey{
+	color: yellow;
+	font-size: 20px;
+}
+
+.fa{
+	color: white;
+}
+.fnt{
+	display: flex;
+	justify-content: space-between;
+}
+
+.inpt{
+	display: flex;
+	margin-top: 1%;
+	text-align: center;
+	justify-content: center;
+
+
+}
+.search{
+	background-color: #AFEEEE ;
+	border: 1px solid #162447;
+	border-radius: 4px;
+	width: 16%;
+}
+.butn{
+		background-color: #AFEEEE ;
+		border: 1px solid #162447;
+		
+		border-radius: 4px;
+
+}
+@media only screen and (max-width: 600px) {
+  .search {
+    width: 68%;  }
+}
